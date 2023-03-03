@@ -1,0 +1,116 @@
+
+       
+#corp {margin: 50px;
+  padding: 10px;
+  align-items:self-end;
+  align-content: space-between;
+  display:flexbox;
+  size-adjust: 10px;
+  align-content: center;
+  border-radius: 20px;
+  background-color:bisque;
+  background-size: 10px;
+  flex: 20px;}
+
+
+.bouton {
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	background-color:#637aad;
+	border:1px solid #314179;
+	display:inline-block;
+    align-content: space-between;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.bouton :hover {
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	background-color:#5972a7;
+}
+.bouton :active {
+	position:relative;
+	top:1px;
+}
+
+.bouton{
+    display:flexbox;
+    justify-content:space-between;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+li {
+  list-style:none !important; /*On enlève les puces de la liste */
+  color:#FFF;
+  padding:10px;
+  font-size:20px;
+  text-decoration:none;
+  }
+   
+  nav ul {
+  background-color:#64abfb;
+  padding:0;
+  margin:0;
+  }
+   
+  nav ul li {
+  list-style: none;
+  line-height:44px;
+  float:left;
+  background-color:#64abfb;
+  }
+   
+  nav ul li a {
+  color:#FFF;
+  padding:10px;
+  font-size:20px;
+  text-decoration:none;
+  }
+   
+  li a:hover {
+  border-bottom:3px #FFF solid;
+  }
+  
+  nav ul li ul { 
+  display:none; /* Rend le menu déroulant caché par défaut */
+  } 
+   
+  nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+  z-index:99999;
+  display:list-item !important;
+  position:absolute;
+  margin-top:5px;
+  margin-left:-10px;
+  }
+   
+  nav ul li:hover ul li {
+  float:none;
+  }
+
+  #navbar{display: flex;}
+ #nav_corp{display: flex;
+justify-content: space-between;}
+#nav_g{background-color:#64abfb;
+font-size: larger;}
+.but{ display:inline-block;}
+
+.heart {
+  fill: gray;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.heart.is-active {
+  fill: red;
+}
+
+
+
